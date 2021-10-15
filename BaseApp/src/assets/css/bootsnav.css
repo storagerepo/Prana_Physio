@@ -157,7 +157,7 @@ nav.navbar.bootsnav .navbar-toggle {
   background-color: transparent !important;
   border: none;
   padding: 0;
-  font-size: 15px;
+   font-size: 18px;
   position: relative;
   top: 5px;
 }
@@ -279,7 +279,7 @@ nav.bootsnav.navbar-full .navbar-collapse ul.nav > li > a {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: normal;
-  font-size: 15px;
+   font-size: 18px;
   padding: 15px 15px;
 }
 
@@ -324,7 +324,7 @@ nav.navbar.attr-border .attr-nav {
   background: #0cb8b6 none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-size: 15px;
+   font-size: 18px;
   font-weight: 600;
   padding: 8px 20px !important;
 }
@@ -681,7 +681,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 .navbar .side .widget li {
   display: block;
   font-family: "Poppins",sans-serif;
-  font-size: 15px;
+   font-size: 18px;
   margin-bottom: 15px;
 }
 
@@ -952,7 +952,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.sticked ul.nav > li > a {
-    padding: 30px 12px !important;
+    padding: 30px 5px !important;
   }
 }
 
@@ -975,7 +975,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 15px;
+     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.06px;
     padding: 35px 15px;
@@ -1007,7 +1007,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav .navbar-brand {
-    padding: 20px 15px;
+    padding: 4px 0px !important;
   }
 
   nav.navbar.bootsnav.sticked .navbar-brand {
@@ -1113,7 +1113,7 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a {
     color: #232323;
     display: block;
-    font-size: 15px;
+     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0;
     padding: 12px 15px;
@@ -1210,7 +1210,7 @@ nav.navbar.bootsnav {
     border-bottom: medium none;
     color: #232323;
     display: block;
-    font-size: 15px;
+     font-size: 18px;
     font-weight: 400;
     margin-bottom: 0;
     padding: 8px 0;
@@ -2076,7 +2076,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.navbar-sidebar .share {
-    padding: 30px 15px;
+    padding: 30px 5px;
     margin-bottom: 0;
   }
 
@@ -2274,11 +2274,11 @@ nav.navbar.bootsnav {
 
 .attr-nav > ul > li {
   padding: 25px 0;
-  font-size: 15px;
+   font-size: 18px;
 }
 
 .attr-nav > ul > li > a {
-  font-size: 15px;
+   font-size: 18px;
   padding: 8px 10px !important;
 }
 
@@ -2331,7 +2331,7 @@ ul.cart-list > li.total > .btn {
 
 @media (min-width: 1024px) {
   nav.navbar ul.nav > li > a {
-    padding: 30px 15px;
+    padding: 30px 5px;
     font-weight: 300;
   }
 
@@ -2662,14 +2662,14 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 }
 
 nav.bootsnav.navbar-full .navbar-toggle i {
-  font-size: 15px;
+   font-size: 18px;
   color: #9a9a9a;
   font-weight: bold;
   transition: .3s ease;
 }
 
 .navbar-toggle-txt {
-  font-size: 15px;
+   font-size: 18px;
   position: relative;
   top: -3px;
   font-weight: bold;
@@ -2718,4 +2718,14 @@ nav.bootsnav.navbar-full .navbar-toggle:hover span {
 
 body.wrap-nav-sidebar {
   height: auto !important;
+}
+
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -135px !important;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: -98px !important; 
+}
+
 }
