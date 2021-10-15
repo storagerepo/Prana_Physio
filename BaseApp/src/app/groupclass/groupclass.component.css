@@ -1,0 +1,23 @@
+.icon-padding{
+    padding-top: 120px;
+}
+
+#banner-id{
+        max-width: 130%; 
+        box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+        padding: 10px;
+        background: #ffffff;
+}
+
+.justify-content{
+    align-items: center;
+    justify-content: center;
+}
+
+li::after{
+        content: "\f5ae" !important;
+}
+
+.center-footer{
+    text-align: center;
+}
