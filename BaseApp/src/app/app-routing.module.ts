@@ -11,6 +11,7 @@ import { ServiceDetailsComponent } from './service/service-details/service-detai
 import { FallspreventationComponent } from './fallspreventation/fallspreventation.component';
 import { ExpertComponent } from './expert/expert.component';
 import { CareTakerComponent } from './care-taker/care-taker.component';
+import { AgeSuccessfulCalculatorComponent } from './age-successful-calculator/age-successful-calculator.component';
 
 
 const routes: Routes = [
@@ -50,6 +51,10 @@ const routes: Routes = [
       {
         path: 'fallspreventation',
         component: FallspreventationComponent,
+      },
+      {
+        path: 'age-successful-calculator',
+        component: AgeSuccessfulCalculatorComponent,
       },
       {
         path: 'expert',

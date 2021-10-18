@@ -15,6 +15,9 @@ import { FooterComponent } from './footer/footer.component';
 import { FallspreventationComponent } from './fallspreventation/fallspreventation.component';
 import { CareTakerComponent } from './care-taker/care-taker.component';
 import { ExpertComponent } from './expert/expert.component';
+import { AgeSuccessfulCalculatorComponent } from './age-successful-calculator/age-successful-calculator.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SingleLegBalanceComponent } from './single-leg-balance/single-leg-balance.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +34,14 @@ import { ExpertComponent } from './expert/expert.component';
     FooterComponent,
     CareTakerComponent,
     ExpertComponent,
+    AgeSuccessfulCalculatorComponent,
+    SingleLegBalanceComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],  
