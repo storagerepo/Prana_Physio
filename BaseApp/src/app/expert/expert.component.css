@@ -1,0 +1,7 @@
+body{
+    font-size: 13px !important;
+}
+
+nav.navbar.bootsnav ul.nav > li > a{
+    font-size: 13px;
+}

@@ -11,5 +11,7 @@ export class AboutusComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  readMore(){
+    
+  }
 }

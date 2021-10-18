@@ -12,6 +12,7 @@ import { FallspreventationComponent } from './fallspreventation/fallspreventatio
 import { ExpertComponent } from './expert/expert.component';
 import { CareTakerComponent } from './care-taker/care-taker.component';
 import { AgeSuccessfulCalculatorComponent } from './age-successful-calculator/age-successful-calculator.component';
+import { AboutDetailsComponent } from './aboutus/about-details/about-details.component';
 
 
 const routes: Routes = [
@@ -63,6 +64,10 @@ const routes: Routes = [
       {
         path: 'care-taker',
         component: CareTakerComponent,
+      },
+      {
+        path: 'aboutus/about-details',
+        component: AboutDetailsComponent,
       },
     ]
   }

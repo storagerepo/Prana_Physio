@@ -18,6 +18,7 @@ import { ExpertComponent } from './expert/expert.component';
 import { AgeSuccessfulCalculatorComponent } from './age-successful-calculator/age-successful-calculator.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SingleLegBalanceComponent } from './single-leg-balance/single-leg-balance.component';
+import { AboutDetailsComponent } from './aboutus/about-details/about-details.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { SingleLegBalanceComponent } from './single-leg-balance/single-leg-balan
     ExpertComponent,
     AgeSuccessfulCalculatorComponent,
     SingleLegBalanceComponent,
+    AboutDetailsComponent,
   ],
   imports: [
     BrowserModule,
