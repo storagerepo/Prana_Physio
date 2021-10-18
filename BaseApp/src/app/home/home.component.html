@@ -259,13 +259,6 @@
                 <div class="appoinment-box">
                     <div class="appointment-schedule">
                         <h5>Appointment schedule</h5>
-                        <ul>
-                            <li>Sat - Tue <span>8:00 - 15:30</span></li>
-                            <li>Wed - Fri <span>10:00 - 16:30</span></li>
-                        </ul>
-                    </div>
-                    <div class="heading">
-                        <h2>Make an Appointment</h2>
                     </div>
                     <form action="#">
                         <div class="row">
@@ -274,7 +267,7 @@
                                     <input class="form-control" id="name" name="name" placeholder="Name" type="text">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <!-- <div class="col-md-12">
                                 <div class="form-group">
                                     <select>
                                         <option value="1">Male</option>
@@ -282,15 +275,29 @@
                                         <option value="3">Child</option>
                                     </select>
                                 </div>
+                            </div> -->
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email*"
+                                        type="email">
+                                    <span class="alert-error"></span>
+                                </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <select>
-                                        <option value="1">Department</option>
-                                        <option value="2">Medecine</option>
-                                        <option value="4">Dental Care</option>
-                                        <option value="5">Traumatology</option>
-                                    </select>
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                    <span class="alert-error"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                        <select>
+                                            <option value="1">Exercise-Based Rehabilitation - Grafton - BodyTech</option>
+                                            <option value="2">Grafton - BodyTech - ACC Physiotherapy</option>
+                                            <option value="4">Massage Therapy</option>
+                                            <option value="5">St Luke's Patients</option>
+                                            <option value="5">Telehealth Consultation</option>
+                                        </select>
                                 </div>
                             </div>
                             <div class="col-md-12">
@@ -306,6 +313,7 @@
         </div>
     </div>
 </div>
+
 <!-- End Appoinment -->
 
 <!-- Start Services -->
@@ -451,7 +459,7 @@
 <!-- End Services -->
 
 <!-- Start Doctors Tips  -->
-<div class="doctor-tips-area default-padding">
+<!-- <div class="doctor-tips-area default-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -469,23 +477,10 @@
                     <img src="assets/img/banner/home.jpg" alt="">
                 </div>
             </div>
-            <!-- Single Item -->
             <div class="col-md-7">
                 <div class="health-tips-items">
                     <div class="single-item">
                         <div class="info">
-                            <!-- <div class="doctor">
-                                <h4>Dr. Jessica Ronal</h4>
-                                <h5>MPH, Medicine, Surgery</h5>
-                            </div> -->
-                            <!-- <h3>How to live a healthy lifestyle?</h3> -->
-                            <!-- <p>
-                                Frequently partiality possession resolution at or appearance unaffected he me. Engaged
-                                its was evident pleased husband. Ye goodness felicity do disposal dwelling no. First am
-                                plate jokes to began of cause an scale. Subjects he prospect elegance followed no
-                                overcame possible it on.
-                            </p> -->
-                            <!-- <h4>Follow the instructions</h4> -->
                             <ul>
                                 <li> Better access to physiotherapy services at a time of your choice without needing to
                                     venture out, where social distancing is the need of the hour.</li>
@@ -501,12 +496,11 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- End Single Item -->
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Doctors Tips -->
 
 <!-- Start Doctors Tips  -->
@@ -573,6 +567,9 @@
     ============================================= -->
 <div class="department-tabs default-padding">
     <div class="container">
+        <div class="site-heading text-center">
+            <h2>Prana Physiotherapy <span>is now offering telehealth services!</span></h2>
+        </div>
         <div class="row">
             <div class="col-md-3 tab-navs">
                 <div class="heading">
@@ -582,11 +579,16 @@
                 <ul class="nav nav-pills">
                     <li class="active">
                         <a data-toggle="tab" href="#tab1" aria-expanded="true">
-                            Who Comes To Us?
+                            Telehealth Services
                         </a>
                     </li>
                     <li>
                         <a data-toggle="tab" href="#tab2" aria-expanded="false">
+                            Who Comes To Us?
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#tab3" aria-expanded="false">
                             We Understand Clients’ Concerns And We Care
                         </a>
                     </li>
@@ -597,8 +599,41 @@
                 <div class="row">
                     <!-- Start Tab Content -->
                     <div class="tab-content tab-content-info">
+                          <!-- Single Item -->
+                          <div id="tab1" class="tab-pane fade active in">
+
+                            <!-- Start Department Info -->
+                            <div class="col-md-12">
+                                <div class="info title">
+                                    <!-- <div class="thumb">
+                                        <img src="assets/img/departments/1.jpg" alt="Thumb">
+                                    </div> -->
+                                    <h3>Telehealth Benefits For Patients:</h3>
+                                    <div class="health-tips-items">
+                                        <div class="info">
+                                            <ul>
+                                                <li> Better access to physiotherapy services at a time of your choice without needing to
+                                                    venture out, where social distancing is the need of the hour.</li>
+                                                <li>The ability of patients to ask quick questions, and have a comprehensive analysis of
+                                                    your current injury with out being rushed.</li>
+                                                <li> Access to high quality videos and digital tools.</li>
+                                                <li>Exercise prescription that is specific to your situation and personalized to you
+                                                    keeping
+                                                    n nd mind your access to your resources.</li>
+                                                <li>A safe and local alternative to suing google self -diagnosis.</li>
+                                                <li>Empowering patients with an evidence-based knowledge and tools to manage their own
+                                                    injuries.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Department Info -->
+
+                        </div>
+                        <!-- End Single Item -->
                         <!-- Single Item -->
-                        <div id="tab1" class="tab-pane fade active in">
+                        <div id="tab2" class="tab-pane fade">
 
                             <!-- Start Department Info -->
                             <div class="col-md-12">
@@ -642,7 +677,7 @@
                         <!-- End Single Item -->
 
                         <!-- Single Item -->
-                        <div id="tab2" class="tab-pane fade">
+                        <div id="tab3" class="tab-pane fade">
                             <!-- Start Department Info -->
                             <div class="col-md-12">
                                 <div class="info title">
@@ -886,39 +921,41 @@
 </div>
 <!-- End Departments -->
 
-<!-- Start Fun Factor -->
-<div class="fun-fact-area default-padding shadow light text-center bg-fixed text-light"
-    style="background-image: url(assets/img/banner/7.jpg);">
+
+<!-- Start Fun Factor
+    ============================================= -->
+    <div class="fun-fact-area default-padding shadow light text-center bg-fixed text-light"
+    style="background-image: url(assets/img/banner/aboutpage.jpg);">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6 item">
+            <div class="col-md-4 col-sm-6 item">
                 <div class="fun-fact">
                     <i class="flaticon-recovered"></i>
                     <div class="timer" data-to="230" data-speed="5000"></div>
                     <span class="medium">Satisfied Patients</span>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 item">
+            <div class="col-md-4 col-sm-6 item">
                 <div class="fun-fact">
                     <i class="flaticon-doctor"></i>
                     <div class="timer" data-to="89" data-speed="5000"></div>
-                    <span class="medium">Regular Doctors</span>
+                    <span class="medium">Regular Therapist</span>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 item">
+            <div class="col-md-4 col-sm-6 item">
                 <div class="fun-fact">
                     <i class="flaticon-department"></i>
                     <div class="timer" data-to="50" data-speed="5000"></div>
-                    <span class="medium">Departments</span>
+                    <span class="medium">Service</span>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 item">
+            <!-- <div class="col-md-3 col-sm-6 item">
                 <div class="fun-fact">
                     <i class="flaticon-nurse"></i>
                     <div class="timer" data-to="2348" data-speed="5000"></div>
                     <span class="medium">Servant</span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
