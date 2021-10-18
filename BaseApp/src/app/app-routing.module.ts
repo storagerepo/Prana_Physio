@@ -9,6 +9,8 @@ import { ServiceComponent } from './service/service.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceDetailsComponent } from './service/service-details/service-details.component';
 import { FallspreventationComponent } from './fallspreventation/fallspreventation.component';
+import { ExpertComponent } from './expert/expert.component';
+import { CareTakerComponent } from './care-taker/care-taker.component';
 
 
 const routes: Routes = [
@@ -48,6 +50,14 @@ const routes: Routes = [
       {
         path: 'fallspreventation',
         component: FallspreventationComponent,
+      },
+      {
+        path: 'expert',
+        component: ExpertComponent,
+      },
+      {
+        path: 'care-taker',
+        component: CareTakerComponent,
       },
     ]
   }

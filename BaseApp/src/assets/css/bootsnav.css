@@ -1015,7 +1015,9 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li.active > a {
-    color: #0cb8b6;
+    /* color: #0cb8b6; */
+    background-color:#0cb8b6 !important ;
+    color: white !important;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav > li.active > a {

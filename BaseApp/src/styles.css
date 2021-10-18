@@ -2165,6 +2165,7 @@ Table of contents
     border-top: 3px solid #0cb8b6;
     z-index: 1;
     overflow: hidden;
+    cursor: pointer !important;
   }
   
   .services-area.inc-icon .item i {

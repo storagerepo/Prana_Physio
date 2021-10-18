@@ -13,6 +13,8 @@ import { ServiceDetailsComponent } from './service/service-details/service-detai
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FallspreventationComponent } from './fallspreventation/fallspreventation.component';
+import { CareTakerComponent } from './care-taker/care-taker.component';
+import { ExpertComponent } from './expert/expert.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { FallspreventationComponent } from './fallspreventation/fallspreventatio
     FallspreventationComponent,
     HeaderComponent,
     FooterComponent,
+    CareTakerComponent,
+    ExpertComponent,
   ],
   imports: [
     BrowserModule,

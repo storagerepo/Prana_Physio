@@ -2,17 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-expert',
+  templateUrl: './expert.component.html',
+  styleUrls: ['./expert.component.css']
 })
-export class HomeComponent implements OnInit {
+export class ExpertComponent implements OnInit {
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-
   routerForExpert(){
     this.router.navigateByUrl("/expert");
   }
