@@ -24,3 +24,10 @@
 .center-footer{
     text-align: center;
 }
+
+.table-style{
+    text-align: center;
+    border-bottom-width: 2px;
+    background-color: #0cb8b6;
+    color: white;
+}
