@@ -2,6 +2,10 @@
     padding-top: 120px;
 }
 
+.table-padding{
+    padding-bottom: 120px;;
+}
+
 #banner-id{
         max-width: 130%; 
         box-shadow: 0 0 10px rgb(0 0 0 / 10%);
@@ -10,13 +14,12 @@
 }
 
 .justify-content{
-    align-items: center;
-    justify-content: center;
+    text-align:justify;
 }
 
-li::after{
+/* li::after{
         content: "\f5ae" !important;
-}
+} */
 
 .center-footer{
     text-align: center;
