@@ -955,7 +955,6 @@ nav.navbar.bootsnav {
     padding: 30px 12px !important;
   }
 }
-
 @media (min-width: 1024px) {
   nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu {
     margin-top: -2px;
@@ -975,7 +974,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.06px;
     padding: 35px 15px;
@@ -1007,7 +1006,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav .navbar-brand {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
 
   nav.navbar.bootsnav.sticked .navbar-brand {
@@ -1309,16 +1308,16 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.menu-center ul.nav.navbar-center {
-    float: none;
+    float: right;
     margin: 0 auto;
     display: table;
     table-layout: fixed;
   }
 
-  nav.navbar.bootsnav.menu-center .navbar-header, 
-  nav.navbar.bootsnav.menu-center .attr-nav {
-    position: absolute;
-  }
+  /* nav.navbar.bootsnav.menu-center .navbar-header, 
+  nav.navbar.bootsnav.menu-center .attr-nav { */
+    /* position: absolute; */
+  /* } */
 
   nav.navbar.bootsnav.menu-center .attr-nav {
     right: 15px;
@@ -1621,6 +1620,18 @@ nav.navbar.bootsnav {
   }
 }
 
+@media (min-width: 1400px) {
+  .container-fluid{
+    padding-right: 75px !important;
+    padding-left: 75px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container-fluid{
+    padding-right: 170px !important;
+    padding-left: 170px !important;
+  }
+}
 @media (max-width: 1023px) {
 
   .attr-nav {
@@ -2370,7 +2381,7 @@ ul.cart-list > li.total > .btn {
   }
 
   nav.navbar.bootsnav.navbar-transparent.white {
-    background: transparent none repeat scroll 0 0;
+    background: white none repeat scroll 0 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -2411,7 +2422,8 @@ ul.cart-list > li.total > .btn {
   nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, 
   nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #fff;
+    /* color: #fff; */
+    color: black;
   }
 
   nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a, 
