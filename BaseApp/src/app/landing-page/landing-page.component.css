@@ -1,0 +1,19 @@
+footer{
+position:fixed;
+bottom:0px;
+width:100%;
+}
+
+.bg-img{
+    background: url(/assets/img/home/backgroundImage.jpg);
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
+    /* background-position: center center; */
+    background-size: cover;
+  
+}
+
+.default-padding {
+    padding-top: 120px;
+    padding-bottom: 155px !important;
+  }

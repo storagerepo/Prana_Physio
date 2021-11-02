@@ -13,6 +13,7 @@ import { ExpertComponent } from './expert/expert.component';
 import { CareTakerComponent } from './care-taker/care-taker.component';
 import { AgeSuccessfulCalculatorComponent } from './age-successful-calculator/age-successful-calculator.component';
 import { AboutDetailsComponent } from './aboutus/about-details/about-details.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 const routes: Routes = [
@@ -23,7 +24,13 @@ const routes: Routes = [
     children: [
       {
         path: '',
+        // component: HomeComponent,
+           component: LandingPageComponent,
+      },
+      {
+        path: 'home',
         component: HomeComponent,
+         
       },
       {
         path: 'service',

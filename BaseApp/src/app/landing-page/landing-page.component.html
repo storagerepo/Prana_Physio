@@ -1,0 +1,96 @@
+<!-- Start Header -->
+<header>
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
+        <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/home/logo.png" class="logo" alt="Logo">
+                </a>
+            </div>
+            <!-- End Header Navigation -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                    <li>
+                        <a routerLink="">Checkout to our Web Application</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+</header>
+<!-- End Header -->
+
+<!-- Start Services -->
+<div class="services-area inc-icon less-info default-padding  bg-img">
+    <div class="container">
+        <div class="row">
+            <div class="services-items text-center">
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height" (click)="routerForCareTaker()">
+                    <div class="item">
+                        <a>
+                            <i><img src="assets/img/home/caregiver.png" class="caregiver" alt="caregiver"></i>
+                            <h4>I'm a Care Giver</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height" (click)="routerForPatient()">
+                    <div class="item">
+                        <a>
+                            <i><img src="assets/img/home/Healthseaker.png" class="caregiver" alt="caregiver"></i>
+                            <h4>I'm a Health Seeker</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height" (click)="routerForExpert()">
+                    <div class="item">
+                        <a>
+                            <i><img src="assets/img/home/clinician.png" class="caregiver" alt="caregiver"></i>
+                            <h4>I'm Clinician</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Services -->
+
+  <!-- Start Footer -->
+  <footer class="bg-dark text-light">
+    <div class="footer-bottom bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; Copyright 2021. All Rights Reserved by <a routerLink="https://www.deemsysinc.com/index/home.html" target="_blank">Deemsys Inc</a></p>
+                </div>
+                <div class="col-md-6 text-right link">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of user</a>
+                        </li>
+                        <li>
+                            <a href="#">License</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
