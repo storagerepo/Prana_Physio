@@ -4,16 +4,20 @@ bottom:0px;
 width:100%;
 }
 
+.services-area.inc-icon .item {
+    background: #ffffff78;
+    border-radius: 30px;
+    border-top: 0px;
+  }
+
+
 .bg-img{
     background: url(/assets/img/home/backgroundImage.jpg);
-    /* background-repeat: no-repeat; */
     background-repeat: no-repeat; 
-    /* background-position: center center; */
     background-size: cover;
-  
 }
 
 .default-padding {
     padding-top: 120px;
-    padding-bottom: 155px !important;
+    padding-bottom: 160px !important;
   }
